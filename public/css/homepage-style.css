@@ -36,7 +36,7 @@ html, body {
 }
 
 .links > a {
-    color: #636b6f;
+    color: rgb(255, 255, 255);
     padding: 0 25px;
     font-size: 12px;
     font-weight: 600;
@@ -48,7 +48,6 @@ html, body {
 #homeBtn, .navbar-default .navbar-nav>li>a{
      color: rgb(255, 255, 255); 
      font-weight: bold;
-     /* background-color: transparent; */
 } 
 #homeBtn, .navbar-default .navbar-nav>li>a:hover{
     color: #f1f5f7;
@@ -56,8 +55,12 @@ html, body {
     font-size: 20px;
 }
 
+.dropdown-menu>li>a{
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
+}
 
-#nav{
+#nav, .dropdown-menu{
     background-color:transparent !important;
     border-color:transparent;
     background-image:none;
